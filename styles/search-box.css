@@ -1,0 +1,16 @@
+/* Responsive: yes */
+
+/*タイトル下の検索窓*/
+.global-search {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .global-search {
+        display: block;
+    }
+
+    .search-result-form {
+        display: none;
+    }
+}

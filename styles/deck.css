@@ -1,0 +1,68 @@
+/* Responsive: yes */
+
+.entry-content code {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: helvetica, Segoe UI, 游ゴシック体, YuGothic, 游ゴシック Medium, Yu Gothic Medium, 游ゴシック, Yu Gothic, メイリオ, Meiryo, sans-serif;
+    color: #293030;
+}
+
+.dbox {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    overflow: hidden;
+    margin: 2em auto;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.d1:before {
+    content: "";
+    display: block;
+    padding-top: 23%;
+    /* 115px/500px = 0.23 */
+}
+
+.d2:before {
+    content: "";
+    display: block;
+    padding-top: 37%;
+    /* 175px/500px = 0.35 (少し切れるので37%にした) */
+}
+
+.dbox img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sepia img {
+    filter: sepia(50%);
+}
+
+.center {
+    display: block;
+    margin: 2em auto;
+}
+
+.center img {
+    display: block;
+    margin: 0 auto;
+}
+
+.pop {
+    display: block;
+    margin: 2em auto;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    color: gray;
+}
+
+.pop img {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
