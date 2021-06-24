@@ -1,0 +1,39 @@
+/* From: https://code-kitchen.dev/html/details-summary/ */
+
+summary {
+    cursor: pointer;
+    transition: .1s;
+    /* 変化を滑らかに */
+}
+
+/* ホバー時のスタイル */
+summary:hover {
+    cursor: pointer;
+    /* カーソルを指マークに */
+    background-color: #EEE;
+}
+
+/* オープン時（開いている時）のスタイルを変える */
+details[open] summary {
+    color: gray;
+}
+
+/* オープン時にアニメーションを設定 */
+details[open] p,
+details[open] blockquote {
+    animation: fadeIn .5s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        /* 透明 */
+        transform: translateY(-10px);
+        /* 上から表示 */
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
