@@ -63,7 +63,8 @@
     color: gray;
 }
 
-.pop img {
+.pop img,
+.pop canvas {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
