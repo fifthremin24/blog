@@ -63,6 +63,10 @@
     color: gray;
 }
 
+.pop img {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
 /* Gifffer の青い枠を消す */
 .gif button:focus {
     outline: none;
