@@ -1,0 +1,22 @@
+/* https://saruwakakun.com/html-css/reference/box */
+
+.note {
+    position: relative;
+    margin: 1em 0;
+    padding: 0.5em;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;
+}
+.note .note-title {
+    position: absolute;
+    display: inline-block;
+    top: 1px;
+    left: 1px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #5b8bd0;
+    color: #ffffff;
+    font-weight: bold;
+}
