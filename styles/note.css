@@ -2,7 +2,7 @@
 
 .note {
     position: relative;
-    margin: 1em 0;
+    margin: 1em auto 2em auto;
     padding: 0.5em 1em;
     background: #f0f7ff;
     border: dashed 2px #5b8bd0;
