@@ -3,7 +3,7 @@
 .note {
     position: relative;
     margin: 1em 0;
-    padding: 0.5em;
+    padding: 0.5em 1em;
     background: #f0f7ff;
     border: dashed 2px #5b8bd0;
 }
@@ -19,4 +19,7 @@
     background: #5b8bd0;
     color: #ffffff;
     font-weight: bold;
+}
+.note .note-body {
+    margin-top: 2em;
 }
